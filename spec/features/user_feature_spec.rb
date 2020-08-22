@@ -8,7 +8,7 @@ describe "User sign up, log in, sign out" do
 
     before(:each) do
       visit '/'
-      click_link(' Up')
+      click_link('Sign Up')
     end
 
     it 'successfully signs up with a name, email, and password' do
